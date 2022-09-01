@@ -92,3 +92,104 @@ This happens because computers can’t store strings in the same efficient way t
 10 <=> 10   #=> 0
 10 <=> 5    #=> 1
 ```
+
+# Logical Operators
+
+`&&` (and), `||` (or) and `!` (not).
+
+The `&&` operator returns `true` if both the left and right expressions return `true`.
+
+```ruby
+if 1 < 2 && 5 < 6
+  puts "Party at Kevin's!"
+end
+
+# This can also be written as
+if 1 < 2 and 5 < 6
+  puts "Party at Kevin's!"
+end
+
+
+
+if 10 < 2 || 5 < 6 #=> although the left expression is false, there is a party at Kevin's because the right expression returns true
+  puts "Party at Kevin's!"
+end
+
+# This can also be written as
+if 10 < 2 or 5 < 6
+  puts "Party at Kevin's!"
+end
+
+
+if !false     #=> true
+
+if !(10 < 5)  #=> true
+
+```
+
+# Case Statements
+
+```ruby
+
+grade = 'F'
+
+did_i_pass = case grade #=> create a variable `did_i_pass` and assign the result of a call to case with the variable grade passed in
+  when 'A' then "Hell yeah!"
+  when 'D' then "Don't tell your mother."
+  else "'YOU SHALL NOT PASS!' -Gandalf"
+end
+
+# If you need to do some more complex code manipulation, you can remove the then keyword and instead place the code to be executed on the next line.
+
+grade = 'F'
+
+case grade
+when 'A'
+  puts "You're a genius"
+  future_bank_account_balance = 5_000_000
+when 'D'
+  puts "Better luck next time"
+  can_i_retire_soon = false
+else
+  puts "'YOU SHALL NOT PASS!' -Gandalf"
+  fml = true
+end
+```
+
+# Unless Statements
+
+An `unless` statement works in the opposite way as an `if` statement: it only processes the code in the block if the expression evaluates to `false`
+
+```ruby
+age = 19
+unless age < 18
+  puts "Get a job."
+end
+```
+
+Just like with `if` statements, you can write a simple `unless` statement on one line, and you can also add an `else` clause.
+
+```ruby
+age = 19
+puts "Welcome to a life of debt." unless age < 18
+
+unless age < 18
+  puts "Down with that sort of thing."
+else
+  puts "Careful now!"
+end
+
+```
+
+# Ternary Operator
+
+The ternary operator is a one-line `if...else` statement that can make your code much more concise.
+
+Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
+
+```ruby
+age = 19
+response = age < 18 ? "You still have your entire life ahead of you." : "You're all grown up."
+puts response #=> "You're all grown up."
+
+```

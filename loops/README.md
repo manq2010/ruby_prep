@@ -236,7 +236,7 @@ Here, class Range provides methods that are useful for:
 
 |`begin`|
 |:--|
-||Returns the begin value given for self.|
+|Returns the begin value given for self.|
 
 |`bsearch`|
 |:--|
@@ -261,7 +261,7 @@ Here, class Range provides methods that are useful for:
 |`hash`|
 |:--|
 |Returns the integer hash code.|
-||
+
 |`last`|
 |Returns the last elements of self.|
 
@@ -343,10 +343,4 @@ Here, class Range provides methods that are useful for:
 
 # Other stuff
 
-Author::    Mancoba Sihlongonyane <manq2010@gmail.com>
-
-## Credits
-
-[<b>Mancoba Sihlongonyane</b>] Who originally created the repo.
-
-$ <https://github.com/manq2010/ruby_prep>
+Author: "Mancoba Sihlongonyane <manq2010@gmail.com>"

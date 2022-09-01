@@ -346,4 +346,7 @@ Here, class Range provides methods that are useful for:
 
 Author: Mancoba Sihlongonyane <manq2010@gmail.com>
 
-$ github.com/manq2010/ruby_prep
+```
+github.com/manq2010/ruby_prep
+
+```

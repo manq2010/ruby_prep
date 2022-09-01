@@ -228,9 +228,11 @@ Here, class Range provides methods that are useful for:
 ## Methods for Creating a Range¶ ↑
 
 * |`::new`|
+|:---|
 |Returns a new range.|
 
 ## Methods for Querying¶ ↑
 
 * |`::new`|
+|:---|
 |Returns a new range.|

@@ -350,3 +350,25 @@ Author: Mancoba Sihlongonyane <manq2010@gmail.com>
 github.com/manq2010/ruby_prep
 
 ```
+
+---
+
+title: "Untitled"
+author: "John Doe, Jane Doe"
+---
+
+---
+author:
+
+* John Doe, Institution One
+* Jane Doe, Institution Two
+
+---
+
+---
+author:
+
+* John Doe^[Institution One, john@example.org]
+* Jane Doe^[Institution Two, jane@example.org]
+
+---

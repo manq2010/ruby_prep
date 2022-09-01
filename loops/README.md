@@ -340,6 +340,60 @@ Here, class Range provides methods that are useful for:
 
 [Public Instance Methods](https://ruby-doc.org/core-3.1.2/Range.html#top)
 
+## For Loop
+
+```ruby
+for i in 0..5
+  puts "#{i} zombies incoming!"
+end
+```
+
+## Times Loop
+
+```ruby
+5.times do
+  puts "Hello, world!"
+end
+```
+
+## Upto and Downto Loops
+
+```ruby
+5.upto(10) {|num| print "#{num} " }     #=> 5 6 7 8 9 10
+
+10.downto(5) {|num| print "#{num} " }   #=> 10 9 8 7 6 5
+```
+
+## Conditionals Within Loops
+
+```ruby
+# conditional_while_loop.rb
+x = 0
+
+while x <= 10
+  if x.odd?
+    puts x
+  end
+  x += 1
+end
+```
+
+```ruby
+# conditional_while_loop_with_next.rb
+
+x = 0
+
+while x <= 10
+  if x == 3
+    x += 1
+    next
+  elsif x.odd?
+    puts x
+  end
+  x += 1
+end
+```
+
 ---
 
 # Other stuff

@@ -262,3 +262,7 @@ In Ruby, `nil` represents “nothing”. Everything in Ruby has a return value. 
 # The Basics
 
 [The Basics link](https://launchschool.com/books/ruby/read/basics)
+
+# The Variables
+
+[![The Variables link @ LaunchSchool]](https://launchschool.com/books/ruby/read/variables)

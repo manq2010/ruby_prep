@@ -343,7 +343,4 @@ Here, class Range provides methods that are useful for:
 
 # Other stuff
 
-Author::   Jim Weirich <jim.weirich@gmail.com>
-Requires:: Ruby 2.0.0 or later
-
 Author: Mancoba Sihlongonyane <manq2010@gmail.com>

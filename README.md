@@ -1,3 +1,5 @@
+[![Actions Status: Ubuntu](https://github.com/ruby/ruby/workflows/Ubuntu/badge.svg)](https://github.com/ruby/ruby/actions?query=workflow%3A"Ubuntu")
+
 # ruby_prep
 
 ## How to load a file into interactive ruby console (IRB)?

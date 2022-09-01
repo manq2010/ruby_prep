@@ -263,6 +263,7 @@ Here, class Range provides methods that are useful for:
 |Returns the integer hash code.|
 
 |`last`|
+|:--|
 |Returns the last elements of self.|
 
 |`max`|

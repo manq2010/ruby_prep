@@ -32,7 +32,7 @@ str_array[-1]           #=> "array"
 str_array[-2]           #=> "small"
 ```
 
-Ruby provides the #first and #last array methods
+Ruby provides the `#first` and `#last` array methods
 
 ```ruby
 str_array = ["This", "is", "a", "small", "array"]

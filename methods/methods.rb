@@ -108,3 +108,24 @@ end
 puts multiply(add(20, 45), subtract(80, 10))
 puts
 puts add(subtract(80, 10), multiply(subtract(20, 6), add(30, 5)))
+
+# Ruby Case & Ranges
+case capacity
+when 0
+  'You ran out of gas.'
+when 1..20
+  'The tank is almost empty. Quickly, find a gas station!'
+when 21..70
+  'You should be ok for now.'
+when 71..100
+  'The tank is almost full.'
+else
+  "Error: capacity has an invalid value (#{capacity})"
+end
+
+# variable
+var = 5;
+
+# ternary statement
+a = (var > 2) ? true : false 
+puts a

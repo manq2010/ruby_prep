@@ -194,7 +194,62 @@ puts whisper #=> "hello everybody"
 
 Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.downcase`.
 
-
 ##### [Lauchschool link for Methods](https://launchschool.com/books/ruby/read/methods)
 
 ##### [Ruby link on Method](https://ruby-doc.org/core-3.1.2/Method.html)
+
+### Ruby Case & Ranges
+
+|Keyword||Description|
+|---||:--|
+|case||Starts a case statement definition. Takes the variable you are going to work with.|
+|when||Every condition that can be matched is one when statement.|
+|else||If nothing matches then do this. Optional.|
+
+Whenever you need to use some `if / elsif` statements you could consider using a Ruby case statement instead. In this post, you will learn a few different use cases and how it all really works under the hood.
+
+```ruby
+case capacity
+when 0
+  "You ran out of gas."
+when 1..20
+  "The tank is almost empty. Quickly, find a gas station!"
+when 21..70
+  "You should be ok for now."
+when 71..100
+  "The tank is almost full."
+else
+  "Error: capacity has an invalid value (#{capacity})"
+end
+```
+
+### Ruby Case & Regex
+
+You can also use <span style="color:red">regular expressions</span>  as your `when` condition. In the following example we have a `serial_code` with an initial letter that tells us how risky this product is to consume.
+
+```ruby
+case serial_code
+when /\AC/
+  "Low risk"
+when /\AL/
+  "Medium risk"
+when /\AX/
+  "High risk"
+else
+  "Unknown risk"
+end
+```
+
+#### Procs + Case
+
+```ruby
+odd  = proc(&:odd?)
+even = proc(&:even?)
+
+case number
+when odd
+  puts "Odd number"
+when even
+  puts "Even number"
+end
+```

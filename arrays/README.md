@@ -1,5 +1,25 @@
 ## Arrays
 
+Array indexing starts at 0, as in C or Java.
+
+A positive index is an offset from the first element:
+* Index 0 indicates the first element.
+* Index 1 indicates the second element.
+* …
+
+A negative index is an offset, backwards, from the end of the array:
+* Index -1 indicates the last element.
+* Index -2 indicates the next-to-last element.
+* …
+
+A non-negative index is in range if it is smaller than the size of the array. For a 3-element array:
+* Indexes 0 through 2 are in range.
+* Index 3 is out of range.
+
+A negative index is in range if its absolute value is not larger than the size of the array. For a 3-element array:
+* Indexes -1 through -3 are in range.
+* Index -4 is out of range.
+
 ### Creating Arrays
 
 Here are two basic arrays:

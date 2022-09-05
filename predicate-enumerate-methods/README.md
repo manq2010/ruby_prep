@@ -7,7 +7,7 @@ Table of Contents
 * [The any? Method](#the-any-method)
 * [The all? Method](#the-all-method)
 * [The none? Method](#the-none-method)
-* [ow to Use Ruby Any, All, None & One](#how-to-use-ruby-any-all-none--one)
+* [How to Use Ruby Any, All, None & One](#how-to-use-ruby-any-all-none--one)
 
 ##### The include? Method
 

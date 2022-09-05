@@ -16,7 +16,7 @@ Table of Contents
 * [The reduce Method](#the-reduce-method)
 * [Bang Methods](#bang-methods)
 * [Return Values of Enumerables](#return-values-of-enumerables)
-* [Assignment](#assignment
+* [Assignment](#assignment)
   * [Ruby Explained: Map, Select, and Other Enumerable Methods](#ruby-explained-map-select-and-other-enumerable-methodshttpswwweriktrautmancompostsruby-explained-map-select-and-other-enumerable-methods)
   * [How to Use The Ruby Map Method](#how-to-use-the-ruby-map-method)
 
@@ -332,5 +332,3 @@ p friends.grep(/J/)
 ```
 
 #### [How to Use The Ruby Map Method](rubyguides.com/2018/10/ruby-map-method/)
-
-

@@ -41,6 +41,7 @@ def isogram?(string)
   original_length = string.length
   string_array = string.downcase.split('')
   unique_length = string_array.uniq.length
+  binding.pry
   original_length == unique_length
 end
 
@@ -54,5 +55,6 @@ end
 def yell_greeting(string)
   name = string
   name = name.upcase
+  pry
   greeting = "WASSAP, #{name}!"
 end

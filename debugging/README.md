@@ -13,6 +13,8 @@ Table of Contents
 * [Debugging with Pry-byebug](#debugging-with-pry-byebugg with Pry-byebug)
   * [Matching Byebug Behaviour](#matching-byebug-behaviour)
 * [How to Start Debugging](#how-to-start-debugging)
+* [HOWTO debug your Ruby code](#howto-debug-your-ruby-code)
+* [Pry Wiki](#pry-wiki)
 
 Reading the Stack Trace
 -----------------------
@@ -93,3 +95,13 @@ VSCode Ruby rdbg Debugger
 ------------------------
 
 [VSCode Ruby rdbg Debugger](https://github.com/ruby/vscode-rdbg)
+
+HOWTO debug your Ruby code
+--------------------------
+
+[HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code)
+
+Pry Wiki
+--------
+
+[Pry Wiki](https://github.com/pry/pry/wiki)

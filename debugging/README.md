@@ -10,7 +10,7 @@ Table of Contents
 
 * [Reading the Stack Trace](#reading-theS-tack-Trace)
 * [Debugging with puts](#debugging-with-puts)
-* [Debugging with Pry-byebug](#debugging-with-pry-byebugg with Pry-byebug)
+* [Debugging with Pry-byebug](#debugging-with-pry-byebugg)
   * [Matching Byebug Behaviour](#matching-byebug-behaviour)
 * [How to Start Debugging](#how-to-start-debugging)
 * [HOWTO debug your Ruby code](#howto-debug-your-ruby-code)

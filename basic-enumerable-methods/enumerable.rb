@@ -224,6 +224,28 @@ p array.map.with_index { |ch, idx| [ch, idx] }
 # ["11", "21", "5"].map(&:to_i)
 p %w[11 21 5].map(&:to_i)
 
-
 # p ["orange", "apple", "banana"].map(&:class)
-p ["orange", "apple", 1].map(&:class)
+p ['orange', 'apple', 1].map(&:class)
+
+guesses = [553, 554, 555]
+
+def display_guess_order(guesses)
+  # use #each_with_index to iterate through each item of the guesses (an array)
+  # use puts to output each list item "Guess #<number> is <item>" to console
+  # hint: the number should start with 1
+  guesses.each_with_index { |item, index| puts "Guess ##{index + 1} is #{item}" }
+end
+
+display_guess_order(guesses)
+
+word_list.each_with_object(Hash.new(0)) do |vote, result|
+    result[vote] += 1
+
+
+# animals = [:cat, :cat, :cat, :horse, :horse, :horse, :horse, :horse, :rabbit, :rabbit, :rabbit, :rabbit, :rabbit, :rabbit, :deer, :deer, :deer, :deer]
+      
+animals = %i[cat cat cat horse horse horse horse horse rabbit rabbit rabbit rabbit rabbit rabbit deer deer deer deer]
+
+  # animals = ['cat', 'cat', 'cat', 'horse',  'horse', 'horse', 'horse', 'horse', 'rabbit',  'rabbit', 'rabbit', 'rabbit', 'rabbit', 'rabbit', 'deer', 'deer', 'deer', 'deer']
+
+  animals = %w[cat cat cat horse horse horse horse horse rabbit rabbit rabbit rabbit rabbit rabbit deer deer deer deer]

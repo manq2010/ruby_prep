@@ -19,7 +19,7 @@ RSpec.describe 'Nested hash exercises' do
 
     context 'when the given language name is javascript' do
       # remove the 'x' from the line below to unskip the test
-      xit 'returns the information for javascript' do
+      it 'returns the information for javascript' do
         expected_output = { initial_release: 'December 4, 1995', is_beautiful?: false }
         expect(find_language_information(hash, :javascript)).to eq(expected_output)
       end
@@ -34,7 +34,7 @@ RSpec.describe 'Nested hash exercises' do
       }
     end
 
-    xit 'adds is_beautiful?: true k/v pair to the ruby nested hash' do
+    it 'adds is_beautiful?: true k/v pair to the ruby nested hash' do
       expected_output = {
         ruby: { is_beautiful?: true, initial_release: 'December 25, 1996' },
         javascript: { is_beautiful?: false }
@@ -42,7 +42,7 @@ RSpec.describe 'Nested hash exercises' do
       expect(add_information_about_language(hash, :ruby, :is_beautiful?, true)).to eq(expected_output)
     end
 
-    xit "adds initial_release: 'December 4, 1995', k/v pair to the javascript nested hash" do
+    it "adds initial_release: 'December 4, 1995', k/v pair to the javascript nested hash" do
       expected_output = {
         ruby: { initial_release: 'December 25, 1996' },
         javascript: { is_beautiful?: false, initial_release: 'December 4, 1995' }

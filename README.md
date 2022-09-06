@@ -2,6 +2,8 @@
 
 # ruby_prep
 
+[Ruby Documents](https://docs.ruby-lang.org/en/master/)
+
 ## How to load a file into interactive ruby console (IRB)?
 
 `irb -r ./your_file.rb` if it is in the same directory.

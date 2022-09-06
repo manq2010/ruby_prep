@@ -1,3 +1,5 @@
+require 'pry-byebug'
+
 def find_language_information(languages, language_name)
   # Take languages (a nested hash) and language_name as a symbol, return the
   # value for the language_name key (which will be another hash!)
@@ -7,11 +9,20 @@ def find_language_information(languages, language_name)
   #   ruby: { initial_release: 'December 25, 1996', is_beautiful?: true },
   #   javascript: { initial_release: 'December 4, 1995', is_beautiful?: false }
   # }
+
+  languages[language_name]
 end
 
 def add_information_about_language(languages, language_name, info_key, info_value)
   # Take languages and add the key/value pair info_key/info_value to the nested
   # hash of language_name, then return the updated languages hash
+  # binding.pry
+
+  languages[language_name] = info_value
+  languages[language_name] = info_key
+  languages
+  # info_key
+  # info_value
 end
 
 def add_language(languages, language_name, language_info_value)

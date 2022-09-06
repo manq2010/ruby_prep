@@ -274,7 +274,7 @@ end
 
 p 'Third Output'
 
-contacts.each do |_person, data|
+contacts.each do |person, data|
   # at this level, "person" is Jon Snow or Freddy and "data" is a hash of
   # key/value pairs to iterate over the "data" hash, we can use the following
   # line:
@@ -332,3 +332,9 @@ p company['properties']['industry'] = 'Advertising/Privacy Invasion'
 end
 
 p data
+
+
+data = [
+  { 'id' => '1', 'properties' => { 'name' => 'Google', 'stock_symbol' => 'GOOG', 'primary_role' => 'company' } },
+  { 'id' => '2', 'properties' => { 'name' => 'Facebook', 'stock_symbol' => 'FB', 'primary_role' => 'company' } }
+]

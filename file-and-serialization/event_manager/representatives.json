@@ -1,0 +1,180 @@
+{
+  "normalizedInput": {
+    "line1": "",
+    "city": "Denver",
+    "state": "CO",
+    "zip": "80203"
+  },
+  "kind": "civicinfo#representativeInfoResponse",
+  "divisions": {
+    "ocd-division/country:us/state:co/cd:1": {
+      "name": "Colorado's 1st congressional district",
+      "officeIndices": [
+        1
+      ]
+    },
+    "ocd-division/country:us/state:co": {
+      "name": "Colorado",
+      "officeIndices": [
+        0
+      ]
+    }
+  },
+  "offices": [
+    {
+      "name": "U.S. Senator",
+      "divisionId": "ocd-division/country:us/state:co",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "legislatorUpperBody"
+      ],
+      "officialIndices": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "U.S. Representative",
+      "divisionId": "ocd-division/country:us/state:co/cd:1",
+      "levels": [
+        "country"
+      ],
+      "roles": [
+        "legislatorLowerBody"
+      ],
+      "officialIndices": [
+        2
+      ]
+    }
+  ],
+  "officials": [
+    {
+      "name": "John W. Hickenlooper",
+      "address": [
+        {
+          "line1": "B85",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20510"
+        }
+      ],
+      "party": "Democratic Party",
+      "phones": [
+        "(202) 224-5941"
+      ],
+      "urls": [
+        "https://www.hickenlooper.senate.gov/",
+        "https://en.wikipedia.org/wiki/John_Hickenlooper"
+      ],
+      "photoUrl": "http://www.colorado.gov/cms/governor/governor-main/images/GovernorHickenlooperInBlueShirt.jpg",
+      "channels": [
+        {
+          "type": "Twitter",
+          "id": "SenatorHick"
+        },
+        {
+          "type": "Facebook",
+          "id": "JohnHickenlooper"
+        }
+      ],
+      "geocodingSummaries": [
+        {
+          "queryString": "B85 Russell Senate Office Building Washington DC 20510",
+          "featureId": {
+            "cellId": "9923602777983093035",
+            "fprint": "16754435804240149550"
+          },
+          "featureType": "typeCompoundBuilding",
+          "positionPrecisionMeters": 154.99767133790925,
+          "addressUnderstood": false
+        }
+      ]
+    },
+    {
+      "name": "Michael F. Bennet",
+      "address": [
+        {
+          "line1": "261 Russell Senate Office Building",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20510"
+        }
+      ],
+      "party": "Democratic Party",
+      "phones": [
+        "(202) 224-5852"
+      ],
+      "urls": [
+        "https://www.bennet.senate.gov/",
+        "https://en.wikipedia.org/wiki/Michael_Bennet"
+      ],
+      "photoUrl": "http://bioguide.congress.gov/bioguide/photo/B/B001267.jpg",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "senbennetco"
+        },
+        {
+          "type": "Twitter",
+          "id": "SenatorBennet"
+        }
+      ],
+      "geocodingSummaries": [
+        {
+          "queryString": "261 Russell Senate Office Building, Washington DC 20510",
+          "featureId": {
+            "cellId": "9923602777983093035",
+            "fprint": "16754435804240149550"
+          },
+          "featureType": "typeCompoundBuilding",
+          "positionPrecisionMeters": 154.99767133790925,
+          "addressUnderstood": false
+        }
+      ]
+    },
+    {
+      "name": "Diana DeGette",
+      "address": [
+        {
+          "line1": "2111 Rayburn House Office Building",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20515"
+        }
+      ],
+      "party": "Democratic Party",
+      "phones": [
+        "(202) 225-4431"
+      ],
+      "urls": [
+        "https://degette.house.gov/",
+        "https://en.wikipedia.org/wiki/Diana_DeGette"
+      ],
+      "photoUrl": "http://degette.house.gov/sites/degette.house.gov/files/styles/congress_image_medium/public/wysiwyg_uploaded/DLD%20High%20Res%205x7_1.JPG?itok=CuIkDIeB",
+      "channels": [
+        {
+          "type": "Facebook",
+          "id": "DianaDeGette"
+        },
+        {
+          "type": "Twitter",
+          "id": "RepDianaDeGette"
+        }
+      ],
+      "geocodingSummaries": [
+        {
+          "queryString": "2111 Rayburn House Office Building, Washington, DC 20515-0601",
+          "featureId": {
+            "cellId": "9923602067032561107",
+            "fprint": "3004281461341646448"
+          },
+          "featureType": "typeCompoundBuilding",
+          "positionPrecisionMeters": 162.19669259570352,
+          "addressUnderstood": false
+        }
+      ]
+    }
+  ]
+}
